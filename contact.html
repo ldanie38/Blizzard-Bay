@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lua Daniele">
+    <title>Contact Us - Blizzard Bay Resort</title>
+    <link rel="stylesheet" href="styles-obfuscated.css">
+                    <!--favicon/CSS-->
+    <link rel="icon" href="images/favicon_io/favicon.ico" type="image/x-icon">
+    
+            
+                    <!--favicon code-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+                    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="contact"> 
+        <header class="header">
+            <nav>
+                <h1>Blizzard Bay Resort</h1>
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="#accommodations" class="nav-link">Accommodations</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="Beautiful view of Swiss valley" class="swiss-image">
+         
+        </header>
+    <main class="main">
+        <section class="contact_sec">
+            <div><h2>Contact Us</h2></div>
+            <div> <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! <br>
+            Required fields marked with a *</p></div>
+            <div class="swiss-mountan"><img src="images/swiss-peak.jpg" alt="Beautiful peak in Swiss mountains"></div>
+        </section>
+
+        <section>
+            <form>
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone *</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <fieldset>
+                    <legend><h3>Preferred contact method *</h3></legend>
+                    <label>
+                        <input type="radio" name="contact-method" value="email" required> Email
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-method" value="phone" required> Phone
+                    </label>
+                </fieldset>
+
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+         <p>&copy; 2024 Blizzard. All rights reserved.</p> 
+    </footer>
+    <div class="scroll-up" id="scrollUpArrow">&#8679;</div> 
+    <script src="script.js"></script>
+
+</body>
+</html>
